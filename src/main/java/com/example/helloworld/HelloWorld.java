@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/RMM")
 public class HelloWorld {
 
-	@RequestMapping(value = "/hello")
+	@RequestMapping(value = "/employee")
 	public ResponseEntity<Object> getHello() throws IOException {
 
 		/*
