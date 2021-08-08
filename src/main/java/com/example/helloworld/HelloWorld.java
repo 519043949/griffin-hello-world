@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/ISMO")
+@RequestMapping("/RMM")
 public class HelloWorld {
 
 	@RequestMapping(value = "/hello")
@@ -60,7 +60,7 @@ public class HelloWorld {
 		 * kinesisclient.putRecords(createRecordsRequest);
 		 */
 
-		return new ResponseEntity<>("Hello  This is ISMO v6", HttpStatus.OK);
+		return new ResponseEntity<>("Welcome to Griffin", HttpStatus.OK);
 	}
 
 }
